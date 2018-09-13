@@ -47,12 +47,12 @@
     ],
     "require": {
         "php": "^7.1.3",
-        "illuminate/console": "~5.6.0",
-        "illuminate/database": "~5.6.0",
-        "illuminate/support": "~5.6.0",
+        "illuminate/console": "^5.6.0",
+        "illuminate/database": "^5.6.0",
+        "illuminate/support": "^5.6.0",
         "jackpopp/geodistance": "^1.2",
-        "rinvex/cacheable": "dev-develop",
-        "rinvex/support": "dev-develop"
+        "rinvex/cacheable": "dev-laravel5.7",
+        "rinvex/support": "dev-laravel5.7"
     },
     "require-dev": {
         "codedungeon/phpunit-result-printer": "^0.6.0",
@@ -87,6 +87,16 @@
             ]
         }
     },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/angelformica/support"
+        },
+                {
+            "type": "vcs",
+            "url": "https://github.com/angelformica/cacheable"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
